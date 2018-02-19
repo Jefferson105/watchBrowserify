@@ -9,7 +9,7 @@ function watchBrowserify(bundle) {
     let lastSlash = mainFile.lastIndexOf("/");
     const currentPath = mainFile.slice(0, lastSlash + 1);
 
-    // Set up listener when update some of file of bundle
+    // Set up listener when update some bundle file
     bundle.on("update", function(bundle) {
 
     });
